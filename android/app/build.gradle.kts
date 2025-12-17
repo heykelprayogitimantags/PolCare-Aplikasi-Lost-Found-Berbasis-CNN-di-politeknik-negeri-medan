@@ -1,0 +1,50 @@
+plugins {
+    id("com.android.application")
+    id("kotlin-android")
+    // Flutter plugin harus setelah Android dan Kotlin
+    id("dev.flutter.flutter-gradle-plugin")
+    id("com.google.gms.google-services") // ✅ Plugin Firebase
+}
+
+android {
+    namespace = "com.example.polmed_care"
+    compileSdk = 35
+    ndkVersion = "27.0.12077973"
+
+    defaultConfig {
+        applicationId = "com.example.polmed_care"
+        minSdk = 23              // Firebase & Firestore minimal SDK
+        targetSdk = 35
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    // ✅ Aktifkan desugaring untuk kompatibilitas JDK
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = true   // ← pakai "is" di Kotlin DSL!
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Kotlin library
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
+
+    // ✅ Desugaring support (WAJIB untuk isCoreLibraryDesugaringEnabled)
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+}

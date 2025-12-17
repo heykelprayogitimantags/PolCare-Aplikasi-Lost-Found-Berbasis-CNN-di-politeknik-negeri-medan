@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "430499705675",
+    "project_id": "polmedcare-a90d9",
+    "storage_bucket": "polmedcare-a90d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430499705675:android:e348ad5514ffb5f5aaaece",
+        "android_client_info": {
+          "package_name": "com.example.polmed_care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430499705675-44m4dc5ki2e7rhnvorkl5qm7724na2bt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polmed_care",
+            "certificate_hash": "6638b8e0ba4e40c51f6112807337b927943cddff"
+          }
+        },
+        {
+          "client_id": "430499705675-02fg38luuc72sitcbpl0qkqliov22m9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXE3mTUUEXx84wlFnPs9dipRg6fp8Rndc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430499705675-02fg38luuc72sitcbpl0qkqliov22m9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
