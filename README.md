@@ -11,7 +11,7 @@
 ---
 
 ## 📸 Screenshots
-*(Note: Upload your screenshots to a folder named `screenshots/` and uncomment lines below)*
+
 
 | Login Screen | Dashboard | AI Search Result |
 |:---:|:---:|:---:|
