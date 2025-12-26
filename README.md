@@ -49,7 +49,7 @@ PolCare uses **AI-powered visual search** to:
   <sub>Secure login with email & Google</sub>
 </td>
 <td align="center" width="33%">
-  <img src="screenshots/home.png" width="250" alt="Dashboard"/><br/>
+  <img src="screenshots/profile.png" width="250" alt="Profile"/><br/>
   <strong> Profile</strong><br/>
   <sub>Main interface & navigation</sub>
 </td>
