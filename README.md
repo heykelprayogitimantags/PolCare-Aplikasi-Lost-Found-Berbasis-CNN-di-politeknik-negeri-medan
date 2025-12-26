@@ -37,13 +37,32 @@ PolCare uses **AI-powered visual search** to:
 
 ---
 
-## 📱 Demo
+## 📱 Application Preview
 
 <div align="center">
 
-| 🔐 Authentication | 🏠 Dashboard | 🔍 AI Search Results |
-|:---:|:---:|:---:|
-| <img src="screenshots/login.png" width="220" alt="Login Screen"/> | <img src="screenshots/home.png" width="220" alt="Dashboard"/> | <img src="screenshots/report-lost.png" width="220" alt="Report Lost"/> |
+<table>
+<tr>
+<td align="center" width="33%">
+  <img src="screenshots/login.png" width="250" alt="Login Screen"/><br/>
+  <strong>🔐 Authentication</strong><br/>
+  <sub>Secure login with email & Google</sub>
+</td>
+<td align="center" width="33%">
+  <img src="screenshots/home.png" width="250" alt="Dashboard"/><br/>
+  <strong>🏠 Dashboard</strong><br/>
+  <sub>Main interface & navigation</sub>
+</td>
+<td align="center" width="33%">
+  <img src="screenshots/result.png" width="250" alt="AI Results"/><br/>
+  <strong>🤖 AI Search</strong><br/>
+  <sub>Visual similarity matching</sub>
+</td>
+</tr>
+</table>
+
+> **Note:** Screenshots taken from Android emulator running PolCare v1.0
+
 </div>
 
 ---
