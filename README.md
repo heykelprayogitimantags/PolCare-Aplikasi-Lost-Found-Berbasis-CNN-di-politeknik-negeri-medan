@@ -43,8 +43,7 @@ PolCare uses **AI-powered visual search** to:
 
 | 🔐 Authentication | 🏠 Dashboard | 🔍 AI Search Results |
 |:---:|:---:|:---:|
-| <img src="screenshots/login.png" width="220" alt="Login Screen"/> | <img src="screenshots/home.png" width="220" alt="Dashboard"/> | <img src="screenshots/result.png" width="220" alt="Search Results"/> |
-
+| <img src="screenshots/login.png" width="220" alt="Login Screen"/> | <img src="screenshots/home.png" width="220" alt="Dashboard"/> | <img src="screenshots/report-lost.png" width="220" alt="Report Lost"/> |
 </div>
 
 ---
