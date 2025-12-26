@@ -54,7 +54,7 @@ PolCare uses **AI-powered visual search** to:
   <sub>Main interface & navigation</sub>
 </td>
 <td align="center" width="33%">
-  <img src="screenshots/result.png" width="250" alt="AI Results"/><br/>
+  <img src="screenshots/ai.png" width="250" alt="AI Results"/><br/>
   <strong> AI Search</strong><br/>
   <sub>Visual similarity matching</sub>
 </td>
